@@ -1,8 +1,16 @@
-# React + Vite
+###Drag & Drop Image Upload
+This is a simple React project that allows users to drag and drop an image or select an image from their local system to upload and display a preview. The application uses framer-motion for smooth animations and provides a modern user interface styled with Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###Features
+Drag & Drop: Users can drag an image file into the designated area, and the preview will appear.
+File Selection: Users can also click to select an image from their file system.
+Image Validation: Only image files are accepted; other file types will show an error message.
+Smooth Animations: The app uses framer-motion to provide animations for the drag-and-drop area and image preview.
+Responsive Design: The app is fully responsive and adapts to different screen sizes, providing a seamless experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###Tech Stack
+React JS: Frontend framework for building the UI.
+Tailwind CSS: Utility-first CSS framework for styling the app.
+Framer Motion: A library for adding animations and transitions.
+JavaScript: To handle the logic for drag and drop, file validation, and image preview.
